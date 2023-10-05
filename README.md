@@ -14,3 +14,5 @@ Nunca havia estudado banco de dados e por se utilizar através de linha de coman
 O que mais gostei é a forma que criamos o banco de dados, pois precisamos utilizar o raciocínio lógico.
 
 O raciocínio lógico é uma forma de nos destacarmos com qualidade e colocarmnos nossas ideias em prática. Bem motivador.
+
+![Segue primeiro diagrama criado e exportado com extensão SVG](Diagrama_biblioteca.svg)
