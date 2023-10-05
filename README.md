@@ -16,9 +16,6 @@ O que mais gostei é a forma que criamos o banco de dados, pois precisamos utili
 O raciocínio lógico é uma forma de nos destacarmos com qualidade e colocarmnos nossas ideias em prática. Bem motivador.
 
 Imagem exportada do diagrama em SVG:
-
 ![Segue primeiro diagrama criado e exportado com extensão SVG](Diagrama_biblioteca.svg)
-
 Imagem exportada em PNG:
-
 ![Segue primeiro diagrama criado e exportado com extensão SVG](Diagrama_PNG.png)
