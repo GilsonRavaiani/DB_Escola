@@ -20,4 +20,4 @@ Imagem exportada do diagrama em SVG:
 Imagem exportada em PNG:
 ![Segue primeiro diagrama criado e exportado com extensão SVG](Diagrama_PNG.png)
 Exportado PDF pelo MySQL Workbench:
-![Incluído PDF] (./Diagrama_PDF.pdf)
+![Incluído PDF](Diagrama_PDF.pdf)
