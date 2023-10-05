@@ -1,0 +1,1 @@
+SELECT * FROM escola_proz.alunos;
