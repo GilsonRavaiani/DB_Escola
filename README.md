@@ -168,6 +168,8 @@ Com o código do Left Join, serão apresentados os dados da tabela alunos e os d
 
 ![Imagem_RightJoin](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/823fcf04-028f-47a1-8e43-4b6d9b7aa0b2)
 
+![right_join](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/dc2362ca-bc18-4200-88a7-c050699ebc43)
+
 
 select nome_alunos, nome_disciplina from alunos
 
