@@ -79,6 +79,7 @@ constraint foreign key (disciplinas_id)
 	references disciplinas (id_disciplina)
 );
 
+![select_alunos](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/076d0d73-4653-4aa5-a169-cf72c019fcfe)
 
 ### INSERIR DADOS NA TABELA DISCIPLINA ###
 
