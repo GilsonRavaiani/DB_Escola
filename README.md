@@ -50,7 +50,7 @@ Em resumo, a chave primária é usada para identificar exclusivamente os registr
 
 ### CRIANDO TABELA DISCIPLINAS ###
 
-![Insert_disciplinas](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/d4d55656-2ee8-4895-b663-3607f3330033)
+![intert_table_alunosproz](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/63d8c0c5-29da-40b7-9412-07c4c1e0df9c)
 
 create table disciplinas (
 
