@@ -202,3 +202,4 @@ right join disciplinas
 
 on disciplinas.id_disciplina = alunos.disciplinas_id
 
+# Iniciando estudos sobre Triggers #
