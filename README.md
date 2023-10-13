@@ -176,11 +176,20 @@ Com o código do Left Join, serão apresentados os dados da tabela alunos e os d
 
 ### Outer Join, Full Outer Join ou full Join - Esse método apresenta todos os registros que estão nas duas tabelas. ###
 
+![Imagem_FullOuterJoin](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/bd6e2e90-4929-4f81-8472-6d469aadb1b2)
+
+
 select nome_alunos, nome_disciplina from alunos
+
 left join disciplinas
+
 on disciplinas.id_disciplina = alunos.disciplinas_id
+
 union
+
 select nome_alunos, nome_disciplina from alunos
+
 right join disciplinas
+
 on disciplinas.id_disciplina = alunos.disciplinas_id
 
