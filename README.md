@@ -67,12 +67,16 @@ nome_professor varchar(50) not null
 ![intert_table_alunos_FK](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/66d28b52-5bea-48ce-8886-5c1b427d3a5d)
 
 create table alunos (
+
 id_alunos int auto_increment primary key,
+
 nome_alunos varchar(50) not null,
-disciplinas_id int,
+
 constraint foreign key (disciplinas_id)
+
 	references disciplinas (id_disciplina)
 );
+
 
 ### INSERIR DADOS NA TABELA DISCIPLINA ###
 
