@@ -1,4 +1,5 @@
 # DB_Escola
+
 Criação de meu primeiro MySQL(Simples mais original)
 
 Esta é minha primeira atividade com MySQL curso Front-End pela Proz.
@@ -40,4 +41,87 @@ Chave Primária (Primary Key) e Chave Estrangeira (Foreign Key) são conceitos f
    - Um banco de dados pode ter várias chaves estrangeiras, e elas são usadas para criar relacionamentos entre tabelas em um modelo de dados relacional.
 
 Em resumo, a chave primária é usada para identificar exclusivamente os registros em uma tabela, enquanto a chave estrangeira é usada para criar relacionamentos entre tabelas e manter a integridade referencial nos dados. Juntas, essas duas chaves desempenham um papel fundamental na modelagem de dados e na garantia da consistência e integridade dos dados em um banco de dados relacional.
+
+# Iniciando estudos com Join #
+
+### CRIANDO TABELA DISCIPLINAS ###
+create table disciplinas (
+id_disciplina int auto_increment primary key,
+nome_disciplina varchar(50) not null,
+nome_professor varchar(50) not null
+);
+
+### CRIANDO TABELAS ALUNOS COM CHAVE ESTRANGEIRA(FOREINGN KEY) ###
+
+create table alunos (
+id_alunos int auto_increment primary key,
+nome_alunos varchar(50) not null,
+disciplinas_id int,
+constraint foreign key (disciplinas_id)
+	references disciplinas (id_disciplina)
+);
+
+### INSERIR DADOS NA TABELA DISCIPLINA ###
+
+INSERT INTO disciplina(nome_disciplina, nome_professor) VALUES ('Banco de Dados', 'Maria Alvez');
+INSERT INTO disciplina(nome_disciplina, nome_professor) VALUES ('JavaScript', 'Joao da Silva');
+INSERT INTO disciplina(nome_disciplina, nome_professor) VALUES ('HTML', 'Pedro Souza');
+INSERT INTO disciplina(nome_disciplina, nome_professor) VALUES ('CSS', 'Valentina');
+INSERT INTO disciplina(nome_disciplina, nome_professor) VALUES ('Cloud', 'Gilson');
+
+### INSERIR DADOS NA TABELA ALUNOS ###
+
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Cleiton', 2);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Carol', 1);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Ruan', 2);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Gabi', NULL);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Rian', NUll);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Mia', 2);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Malu', 2);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Cristiane', 1);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Sonia', 1);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Letícia', 1);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('João', 3);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Cris', 4);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Tom', 5);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Igor', 5);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Evaldo', 4);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Jordan', 4);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Jaca', 3);
+INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Beto', 5);
+
+
+### Inner Join - Esse método retorna os registros que são comuns entre as tabelas. ###
+
+select nome_alunos, nome_disciplina from alunos
+inner join disciplinas
+on disciplinas.id_disciplina = alunos.disciplinas_id;
+
+O resultado da consulta realizada no código anterior apresenta o nome dos alunos que cursam alguma disciplina. Ou seja, é a interseção entre as tabelas. Os alunos que não cursam nenhuma das disciplinas citadas não são exibidos nessa consulta.
+
+### Left Join - Ao realizar uma consulta com o Left Join, todos os dados da tabela à esquerda serão mostrados. ###
+
+select nome_alunos, nome_disciplina from alunos
+left join disciplinas
+on disciplinas.id_disciplina = alunos.disciplinas_id;
+
+Com o código do Left Join, serão apresentados os dados da tabela alunos e os dados da interseção entre as duas tabelas.
+
+### Right Join - Ao realizar uma consulta com o Right Join, todos os dados da tabela à direita serão mostrados. ###
+
+select nome_alunos, nome_disciplina from alunos
+right join disciplinas
+on disciplinas.id_disciplina = alunos.disciplinas_id
+
+Com o código do Left Join, serão apresentados os dados da tabela alunos e os dados da interseção entre as duas tabelas.
+
+### Outer Join, Full Outer Join ou full Join - Esse método apresenta todos os registros que estão nas duas tabelas. ###
+
+select nome_alunos, nome_disciplina from alunos
+left join disciplinas
+on disciplinas.id_disciplina = alunos.disciplinas_id
+union
+select nome_alunos, nome_disciplina from alunos
+right join disciplinas
+on disciplinas.id_disciplina = alunos.disciplinas_id
 
