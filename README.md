@@ -60,6 +60,8 @@ nome_professor varchar(50) not null
 
 ### CRIANDO TABELAS ALUNOS COM CHAVE ESTRANGEIRA(FOREINGN KEY) ###
 
+![intert_table_alunos_FK](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/66d28b52-5bea-48ce-8886-5c1b427d3a5d)
+
 create table alunos (
 id_alunos int auto_increment primary key,
 nome_alunos varchar(50) not null,
