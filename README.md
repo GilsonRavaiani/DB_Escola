@@ -203,3 +203,4 @@ right join disciplinas
 on disciplinas.id_disciplina = alunos.disciplinas_id
 
 # Iniciando estudos sobre Triggers #
+![tela_triggers](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/6d21193e-5a48-4276-bcdc-474175f90d10)
