@@ -154,6 +154,7 @@ O resultado da consulta realizada no código anterior apresenta o nome dos aluno
 
 ![Imagem_LeftJoin](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/7a06f41f-febe-44d3-b091-25db36afb586)
 
+![left_join](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/c50d31e4-b440-4757-90d8-0341ab6a9bc6)
 
 select nome_alunos, nome_disciplina from alunos
 
