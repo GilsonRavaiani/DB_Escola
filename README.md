@@ -80,10 +80,17 @@ constraint foreign key (disciplinas_id)
 
 ### INSERIR DADOS NA TABELA DISCIPLINA ###
 
+![Insert_disciplinas](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/21f90cf5-49cb-477b-8878-ac57917e961e)
+
+
 INSERT INTO disciplina(nome_disciplina, nome_professor) VALUES ('Banco de Dados', 'Maria Alvez');
+
 INSERT INTO disciplina(nome_disciplina, nome_professor) VALUES ('JavaScript', 'Joao da Silva');
+
 INSERT INTO disciplina(nome_disciplina, nome_professor) VALUES ('HTML', 'Pedro Souza');
+
 INSERT INTO disciplina(nome_disciplina, nome_professor) VALUES ('CSS', 'Valentina');
+
 INSERT INTO disciplina(nome_disciplina, nome_professor) VALUES ('Cloud', 'Gilson');
 
 ### INSERIR DADOS NA TABELA ALUNOS ###
