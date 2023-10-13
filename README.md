@@ -95,23 +95,43 @@ INSERT INTO disciplina(nome_disciplina, nome_professor) VALUES ('Cloud', 'Gilson
 
 ### INSERIR DADOS NA TABELA ALUNOS ###
 
+![Insert_alunos](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/f7ee5c01-9441-446f-a754-cc4ac89634fc)
+
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Cleiton', 2);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Carol', 1);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Ruan', 2);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Gabi', NULL);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Rian', NUll);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Mia', 2);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Malu', 2);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Cristiane', 1);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Sonia', 1);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Letícia', 1);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('João', 3);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Cris', 4);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Tom', 5);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Igor', 5);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Evaldo', 4);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Jordan', 4);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Jaca', 3);
+
 INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Beto', 5);
 
 
