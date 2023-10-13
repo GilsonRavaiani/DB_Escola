@@ -49,6 +49,9 @@ Em resumo, a chave primária é usada para identificar exclusivamente os registr
 # Iniciando estudos com Join #
 
 ### CRIANDO TABELA DISCIPLINAS ###
+
+![Insert_disciplinas](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/d4d55656-2ee8-4895-b663-3607f3330033)
+
 create table disciplinas (
 id_disciplina int auto_increment primary key,
 nome_disciplina varchar(50) not null,
