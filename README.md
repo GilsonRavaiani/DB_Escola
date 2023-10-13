@@ -139,6 +139,8 @@ INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Beto', 5);
 
 ![Imagem_InnerJoin](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/a5696d0b-188d-4b92-8ae9-6ae8288719d6)
 
+![inner_join](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/e19df397-7f2c-4d4d-befa-d1ac9311510c)
+
 
 select nome_alunos, nome_disciplina from alunos
 
