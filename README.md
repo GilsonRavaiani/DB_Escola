@@ -137,8 +137,13 @@ INSERT INTO alunos(nome_alunos, disciplinas_id) VALUES ('Beto', 5);
 
 ### Inner Join - Esse método retorna os registros que são comuns entre as tabelas. ###
 
+![Imagem_InnerJoin](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/a5696d0b-188d-4b92-8ae9-6ae8288719d6)
+
+
 select nome_alunos, nome_disciplina from alunos
+
 inner join disciplinas
+
 on disciplinas.id_disciplina = alunos.disciplinas_id;
 
 O resultado da consulta realizada no código anterior apresenta o nome dos alunos que cursam alguma disciplina. Ou seja, é a interseção entre as tabelas. Os alunos que não cursam nenhuma das disciplinas citadas não são exibidos nessa consulta.
