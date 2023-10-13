@@ -150,8 +150,13 @@ O resultado da consulta realizada no código anterior apresenta o nome dos aluno
 
 ### Left Join - Ao realizar uma consulta com o Left Join, todos os dados da tabela à esquerda serão mostrados. ###
 
+![Imagem_LeftJoin](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/7a06f41f-febe-44d3-b091-25db36afb586)
+
+
 select nome_alunos, nome_disciplina from alunos
+
 left join disciplinas
+
 on disciplinas.id_disciplina = alunos.disciplinas_id;
 
 Com o código do Left Join, serão apresentados os dados da tabela alunos e os dados da interseção entre as duas tabelas.
