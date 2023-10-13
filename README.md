@@ -163,8 +163,13 @@ Com o código do Left Join, serão apresentados os dados da tabela alunos e os d
 
 ### Right Join - Ao realizar uma consulta com o Right Join, todos os dados da tabela à direita serão mostrados. ###
 
+![Imagem_RightJoin](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/823fcf04-028f-47a1-8e43-4b6d9b7aa0b2)
+
+
 select nome_alunos, nome_disciplina from alunos
+
 right join disciplinas
+
 on disciplinas.id_disciplina = alunos.disciplinas_id
 
 Com o código do Left Join, serão apresentados os dados da tabela alunos e os dados da interseção entre as duas tabelas.
