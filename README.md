@@ -253,3 +253,6 @@ Vou usar um exemplo mais simples pra melhor compreender sobre JOIN:
 Temos um período escolar com MANHÃ, TARDE E INTEGRAL.
 
 Existem alunos que estudam somente na parte da manhã, a tarde ou nos dois períodos.
+
+Vou refazer os comandos JOIN´s para entendermos:
+
