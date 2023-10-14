@@ -217,3 +217,15 @@ Primeiro acessei meu banco de dados utilizando o comando **"USE"** mais o nome d
 Feito o login com mesmo usuário que estamos no logado no Workbench é só seguir com os comandos agora.
 
 Iniciando testes com essa nova ferramenta.
+![cli_listar_alunosproz](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/f7ed3038-2080-468a-a31b-6a15b64b3376)
+
+Comandos básicos utilizados nesss primeiro momento:
+
+USE ALUNOSPROZ; (Acessando banco de dados "ALUNOSPROZ")
+
+SHOW TABLES; (Listando tabelas existentes em "ALUNOSPROZ")
+
+SELECT * FROM DISCIPLINAS; (Listando todo conteúdo da tabela "DISCIPLINAS")
+
+SELECT * FROM ALUNOS; (Listando todo conteúdo da tabela "ALUNOS")
+
