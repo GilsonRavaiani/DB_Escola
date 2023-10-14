@@ -204,3 +204,16 @@ on disciplinas.id_disciplina = alunos.disciplinas_id
 
 # Iniciando estudos sobre Triggers #
 ![tela_triggers](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/6d21193e-5a48-4276-bcdc-474175f90d10)
+
+Ao iniciar essa parte dos estudos sobre **Triggers** estarei utilizando o MySQL Client.
+
+Eu particularmente sou apaixonado por linhas de comandos e achei bem prático essa opção, então bora lá.
+
+![Utilizando_CLC](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/4691c00f-d53b-40c9-9e68-85d3bdb23ffd)
+
+
+Primeiro acessei meu banco de dados utilizando o comando **"USE"** mais o nome do banco de dados;
+
+Feito o login com mesmo usuário que estamos no logado no Workbench é só seguir com os comandos agora.
+
+Iniciando testes com essa nova ferramenta.
