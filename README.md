@@ -229,3 +229,14 @@ SELECT * FROM DISCIPLINAS; (Listando todo conteúdo da tabela "DISCIPLINAS")
 
 SELECT * FROM ALUNOS; (Listando todo conteúdo da tabela "ALUNOS")
 
+Agora vamos inserir alunos na tabela ALUNOS
+![cli_Insert_aluno](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/94f6d7fd-4a97-4cfa-bced-908f238bff17)
+
+Exemplo:
+
+**INSERT INTO alunos (nome_alunos, disciplinas_id) VALUES ('Danielle', 1);**
+
+Lembrando que o campo ID é AUTO_INCREMENT (Não é preenchido, pois processo é feito automaticamente)
+
+Consultando a tabela para validar a inclusão de dados
+![cli_select_aluno](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/baa0c0e0-1b05-4ae8-adc9-2824a8ea31b7)
