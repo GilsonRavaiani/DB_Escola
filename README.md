@@ -242,3 +242,14 @@ Lembrando que o campo ID é AUTO_INCREMENT (Não é preenchido, pois processo é
 Consultando a tabela para validar a inclusão de dados
 
 ![cli_select_aluno](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/baa0c0e0-1b05-4ae8-adc9-2824a8ea31b7)
+
+
+# A PRÁTICA ESTÁ NOS LEVANDO A PERFEIÇÃO, SEMPRE LEMBRANDO QUE MENOS É MAIS #
+
+Vou usar um exemplo mais simples pra melhor compreender sobre JOIN:
+
+![Conjuntos](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/66d49da5-8231-4385-a474-c89c135962c5)
+
+Temos um período escolar com MANHÃ, TARDE E INTEGRAL.
+
+Existem alunos que estudam somente na parte da manhã, a tarde ou nos dois períodos.
