@@ -279,3 +279,69 @@ Uma "procedure" (procedimento armazenado) é um objeto de programação em um ba
 **Otimização de Desempenho:** As procedures podem ser pré-compiladas e otimizadas pelo sistema de gerenciamento de banco de dados, o que pode melhorar o desempenho e a eficiência.
 
 **Manutenção Controlada:** Ao armazenar a lógica de negócios no banco de dados como procedures, você pode controlar e monitorar facilmente as alterações na lógica subjacente.
+
+CREATE TABLE Compras (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    DataCompra DATE,
+    ProdutoID INT,
+    Quantidade INT
+);
+
+### Atualizando tabela compras(Incluindo coluna Nome) ###
+
+ALTER TABLE compras
+ADD Nome VARCHAR(255);
+
+### Incluído Produtos na tabela compras ###
+
+UPDATE compras
+SET Nome = 'Arroz'
+WHERE ProdutoID = 1;
+UPDATE compras
+SET Nome = 'Feijão'
+WHERE ProdutoID = 2;
+UPDATE compras
+SET Nome = 'Macarrão'
+WHERE ProdutoID = 3;
+UPDATE compras
+SET Nome = 'Fubá'
+WHERE ProdutoID = 4;
+UPDATE compras
+SET Nome = 'Leite'
+WHERE ProdutoID = 5;
+UPDATE compras
+SET Nome = 'Maizena'
+WHERE ProdutoID = 6;
+UPDATE compras
+SET Nome = 'Chocolate'
+WHERE ProdutoID = 7;
+UPDATE compras
+SET Nome = 'Ovo'
+WHERE ProdutoID = 8;
+UPDATE compras
+SET Nome = 'Carne de Boi'
+WHERE ProdutoID = 9;
+UPDATE compras
+SET Nome = 'Carne de Porco'
+WHERE ProdutoID = 10;
+UPDATE compras
+SET Nome = 'Peixe'
+WHERE ProdutoID = 11;
+UPDATE compras
+SET Nome = 'Suco'
+WHERE ProdutoID = 12;
+
+### Criação PROCEDURE ###
+
+DELIMITER //
+CREATE PROCEDURE RelatorioCompras()
+BEGIN
+    SELECT DataCompra, ProdutoID, Quantidade
+    FROM Compras;
+END //
+DELIMITER ;
+
+
+### Chamando PROCEDURE ###
+
+CALL RelatorioCompras();
