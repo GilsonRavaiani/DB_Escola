@@ -459,4 +459,4 @@ INSERT INTO Compras (Nome, DataCompra, ProdutoID, Quantidade) VALUES
 
     ('Suco', '2023-10-15', 12, 8);
 
-    A forma mais ágil e correta, trazendo melhores resultados.
+    A forma mais ágil e correta, trazendo melhores resultados. (As vezes nesse caso não precisaria de ID e ProdutoID, mas estou aprendendo com os erros).
