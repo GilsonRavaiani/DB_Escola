@@ -386,3 +386,22 @@ DELIMITER ;
 ### Chamando PROCEDURE ###
 
 CALL RelatorioCompras();
+
+### MySQL Client ###
+
+Foi realizado todo procedimento pelo MySQL Client, e ai final consultado pelo MySQL Workbench (Muito interessante utilização do Client)
+
+Segue passo a passo realizado:
+
+![01_Create_Database](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/9dba84b6-3e79-42f2-a144-8d1cd53f38bd)
+![02_Show_Database](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/bf8cacac-ada5-4417-97cc-40b34a96063e)
+![03_USE_mercado](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/d11a5a90-9ab9-4a98-ab0b-3c2204ce1687)
+![04_create_table_compras](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/58cec36f-14b8-4794-add6-c0e9598ccdfd)
+![05_Insert_Into_Compras](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/63b8836a-554c-48c8-96eb-7a457b1ae1c2)
+![06_Select_From_Compras](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/cb509aaa-9bf5-4c74-ad9d-778201111d3b)
+![07_PROCEDURE](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/f94a4142-0688-43da-a3d9-b5e57466d20d)
+![08_CALL_PROCEDURE](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/b2acd9f1-91d6-4d71-82aa-06b82ef5280e)
+![10_Update_Baixa_Item](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/307e11ea-cd26-478e-be2a-67fb8ade3218)
+![11_Consulta_baixa](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/f79f3397-59fb-4efb-9553-f797c3f7a28e)
+![09_MySQL_Workbench](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/195c99cd-d733-42a2-bddb-b01e500ffc6c)
+
