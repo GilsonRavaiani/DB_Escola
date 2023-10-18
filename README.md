@@ -393,6 +393,28 @@ Foi realizado todo procedimento pelo MySQL Client, e ai final consultado pelo My
 
 Segue passo a passo realizado:
 
+![01_Create_Database](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/224d658c-3544-4e1b-bdb1-809b5ce1d8cc)
+
+![02_Show_Database](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/8ef0ba31-253a-4b97-9ae7-cd762eb7adf5)
+
+![03_USE_mercado](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/ce1e01d1-7709-4bed-882a-998bbb1a5e9d)
+
+![04_create_table_compras](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/5e7eacfe-e7d2-4fa6-bc14-11d5afba42c2)
+
+![05_Insert_Into_Compras](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/d7a23683-7e29-4404-9d42-109b4c3bc384)
+
+![06_Select_From_Compras](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/2e9cbf15-d8ef-4222-b945-110205f2149b)
+
+![07_PROCEDURE](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/a74f894b-dc0c-47af-bcca-23dac35c0141)
+
+![08_CALL_PROCEDURE](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/09c2ac69-dbad-4347-9f84-94215a688c30)
+
+![10_Update_Baixa_Item](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/893d13a5-1197-48da-99bb-10fc83f9de23)
+
+![11_Consulta_baixa](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/ae152086-df27-42b0-b8f1-6ee3b5b44d0e)
+
+![09_MySQL_Workbench](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/df312f1a-6d6c-4d43-be2b-6259f5e3e173)
+
 
 Ao invés de fazer o update de item por intem, adcionei todos os itens ao criar a tabela:
 
@@ -429,12 +451,12 @@ INSERT INTO Compras (Nome, DataCompra, ProdutoID, Quantidade) VALUES
 
     ('Ovos', '2023-10-16', 8, 5),
 
-    ('Carne de Boi', '2023-10-15', 3, 8),
+    ('Carne de Boi', '2023-10-15', 9, 8),
 
-    ('Carne de Porco', '2023-10-17', 9, 10),
+    ('Carne de Porco', '2023-10-17', 10, 10),
 
-    ('Peixe', '2023-10-16', 10, 5),
+    ('Peixe', '2023-10-16', 11, 5),
 
-    ('Suco', '2023-10-15', 11, 8);
+    ('Suco', '2023-10-15', 12, 8);
 
     A forma mais ágil e correta, trazendo melhores resultados.
