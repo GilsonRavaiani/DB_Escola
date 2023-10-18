@@ -295,50 +295,91 @@ ADD Nome VARCHAR(255);
 ### Incluído Produtos na tabela compras ###
 
 UPDATE compras
+
 SET Nome = 'Arroz'
+
 WHERE ProdutoID = 1;
+
 UPDATE compras
+
 SET Nome = 'Feijão'
+
 WHERE ProdutoID = 2;
+
 UPDATE compras
+
 SET Nome = 'Macarrão'
+
 WHERE ProdutoID = 3;
+
 UPDATE compras
+
 SET Nome = 'Fubá'
+
 WHERE ProdutoID = 4;
+
 UPDATE compras
+
 SET Nome = 'Leite'
+
 WHERE ProdutoID = 5;
+
 UPDATE compras
+
 SET Nome = 'Maizena'
+
 WHERE ProdutoID = 6;
+
 UPDATE compras
+
 SET Nome = 'Chocolate'
+
 WHERE ProdutoID = 7;
+
 UPDATE compras
+
 SET Nome = 'Ovo'
+
 WHERE ProdutoID = 8;
+
 UPDATE compras
+
 SET Nome = 'Carne de Boi'
+
 WHERE ProdutoID = 9;
+
 UPDATE compras
+
 SET Nome = 'Carne de Porco'
+
 WHERE ProdutoID = 10;
+
 UPDATE compras
+
 SET Nome = 'Peixe'
+
 WHERE ProdutoID = 11;
+
 UPDATE compras
+
 SET Nome = 'Suco'
+
 WHERE ProdutoID = 12;
 
 ### Criação PROCEDURE ###
 
 DELIMITER //
+
 CREATE PROCEDURE RelatorioCompras()
+
 BEGIN
+
     SELECT DataCompra, ProdutoID, Quantidade
+
     FROM Compras;
+    
 END //
+
 DELIMITER ;
 
 
