@@ -440,22 +440,22 @@ INSERT INTO Compras (Nome, DataCompra, ProdutoID, Quantidade) VALUES
 
     ('Macarrão', '2023-10-15', 3, 8),
 
-    ('Fubá', '2023-10-17', 1, 10),
+    ('Fubá', '2023-10-17', 4, 10),
 
-    ('Leite', '2023-10-16', 2, 5),
+    ('Leite', '2023-10-16', 5, 5),
 
-    ('Maizena', '2023-10-15', 3, 8),
+    ('Maizena', '2023-10-15', 6, 8),
 
-    ('Chocolate', '2023-10-17', 1, 10),
+    ('Chocolate', '2023-10-17', 7, 10),
 
-    ('Ovos', '2023-10-16', 2, 5),
+    ('Ovos', '2023-10-16', 8, 5),
 
     ('Carne de Boi', '2023-10-15', 3, 8),
 
-    ('Carne de Porco', '2023-10-17', 1, 10),
+    ('Carne de Porco', '2023-10-17', 9, 10),
 
-    ('Peixe', '2023-10-16', 2, 5),
+    ('Peixe', '2023-10-16', 10, 5),
 
-    ('Suco', '2023-10-15', 3, 8);
+    ('Suco', '2023-10-15', 11, 8);
 
     A forma mais ágil e correta, trazendo melhores resultados.
