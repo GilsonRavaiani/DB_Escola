@@ -257,3 +257,25 @@ Existem alunos que estudam somente na parte da manhã, a tarde ou nos dois perí
 Vou refazer os comandos JOIN´s para entendermos:
 
 # Minha ideia era refazer esse  README, pois a medida que vou praticando a melhora surge mas vou deixar para acompanhar minha evolução #
+
+Hoje utilizei somente o MySQL Client, e fiquei muito feliz.
+
+Aos poucos estou certo que a é esse o caminho, agora vou te mostrar sobre a criação do **PROCEDURE**
+
+Definição de PROCEDURE: 
+
+Uma "procedure" (procedimento armazenado) é um objeto de programação em um banco de dados que contém um conjunto de instruções SQL ou lógica de negócios que podem ser executadas repetidamente. As procedures são usadas para encapsular tarefas ou operações específicas que podem ser executadas no banco de dados. Aqui estão os principais aspectos da definição de uma procedure:
+
+**Encapsulação de Lógica:** As procedures permitem que você agrupe um conjunto de comandos SQL em uma única unidade lógica. Isso pode incluir consultas, inserções, atualizações, exclusões e outros comandos SQL, juntamente com lógica de controle.
+
+**Reutilização de Código:** As procedures facilitam a reutilização de código, uma vez que podem ser chamadas a partir de várias partes do código ou de outros programas. Isso ajuda a evitar a duplicação de código e a manter a consistência na lógica de negócios.
+
+**Parâmetros:** As procedures podem aceitar parâmetros como entrada, permitindo que você personalize a ação da procedure em cada chamada. Isso torna as procedures flexíveis e adaptáveis a diferentes cenários.
+
+**Transações:** As procedures podem ser usadas para criar transações, permitindo que um conjunto de operações seja tratado como uma única unidade atômica. Se uma operação falhar, as alterações podem ser revertidas.
+
+**Segurança:** Você pode definir permissões específicas para a execução de procedures, controlando quem pode executar determinadas operações no banco de dados.
+
+**Otimização de Desempenho:** As procedures podem ser pré-compiladas e otimizadas pelo sistema de gerenciamento de banco de dados, o que pode melhorar o desempenho e a eficiência.
+
+*Manutenção Controlada:* Ao armazenar a lógica de negócios no banco de dados como procedures, você pode controlar e monitorar facilmente as alterações na lógica subjacente.
