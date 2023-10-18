@@ -256,4 +256,4 @@ Existem alunos que estudam somente na parte da manhã, a tarde ou nos dois perí
 
 Vou refazer os comandos JOIN´s para entendermos:
 
-# Minha ideia era refazer esse  README, pois a medida que vou praticando a melhora surge #
+# Minha ideia era refazer esse  README, pois a medida que vou praticando a melhora surge mas vou deixar para acompanhar minha evolução #
