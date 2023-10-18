@@ -415,3 +415,47 @@ Segue passo a passo realizado:
 
 ![09_MySQL_Workbench](https://github.com/GilsonRavaiani/DB_Escola/assets/101072367/195c99cd-d733-42a2-bddb-b01e500ffc6c)
 
+Ao invés de fazer o update de item por intem, adcionei todos os itens ao criar a tabela:
+
+CREATE TABLE Compras (
+
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+
+    Nome VARCHAR(50),
+
+    DataCompra DATE,
+
+    ProdutoID INT,
+
+    Quantidade INT
+
+);
+
+No caso anterior havia esquecido de inserir o nome dos produtos, refiz o procedimento já incluindo todos os dados:
+
+INSERT INTO Compras (Nome, DataCompra, ProdutoID, Quantidade) VALUES
+    ('Arroz', '2023-10-17', 1, 10),
+
+    ('Feijão', '2023-10-16', 2, 5),
+
+    ('Macarrão', '2023-10-15', 3, 8),
+
+    ('Fubá', '2023-10-17', 1, 10),
+
+    ('Leite', '2023-10-16', 2, 5),
+
+    ('Maizena', '2023-10-15', 3, 8),
+
+    ('Chocolate', '2023-10-17', 1, 10),
+
+    ('Ovos', '2023-10-16', 2, 5),
+
+    ('Carne de Boi', '2023-10-15', 3, 8),
+
+    ('Carne de Porco', '2023-10-17', 1, 10),
+
+    ('Peixe', '2023-10-16', 2, 5),
+
+    ('Suco', '2023-10-15', 3, 8);
+
+    A forma mais ágil e correta, trazendo melhores resultados.
