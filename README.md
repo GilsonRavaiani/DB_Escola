@@ -278,4 +278,4 @@ Uma "procedure" (procedimento armazenado) é um objeto de programação em um ba
 
 **Otimização de Desempenho:** As procedures podem ser pré-compiladas e otimizadas pelo sistema de gerenciamento de banco de dados, o que pode melhorar o desempenho e a eficiência.
 
-*Manutenção Controlada:* Ao armazenar a lógica de negócios no banco de dados como procedures, você pode controlar e monitorar facilmente as alterações na lógica subjacente.
+**Manutenção Controlada:** Ao armazenar a lógica de negócios no banco de dados como procedures, você pode controlar e monitorar facilmente as alterações na lógica subjacente.
